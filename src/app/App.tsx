@@ -1,7 +1,7 @@
 const App = () => {
 	return (
 		<div className="App">
-			<h1>Robot GUI</h1>
+			<h2>Robot GUI</h2>
 		</div>
 	);
 };
