@@ -1,5 +1,6 @@
 import './i18n/i18n';
 import '@assets/scss/main.scss';
+import '@assets/scss/tailwind.scss';
 import '@assets/fonts/index';
 
 import { StrictMode } from 'react';

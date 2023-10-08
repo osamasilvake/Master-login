@@ -8,8 +8,6 @@ dayjs.extend(utc);
  * @param language
  * @returns
  */
-const dateLocale = (language: string) => {
-	return dayjs.locale(language);
-};
+const dateLocale = (language: string) => dayjs.locale(language);
 
 export { dateLocale };

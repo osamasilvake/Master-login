@@ -3,6 +3,4 @@
  * @param delay
  * @returns
  */
-export const timeout = (delay: number): Promise<unknown> => {
-	return new Promise((res) => setTimeout(res, delay));
-};
+export const timeout = (delay: number): Promise<unknown> => new Promise((res) => setTimeout(res, delay));
