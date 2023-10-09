@@ -1,6 +1,6 @@
 ## React + Vite Tooling
 
-Setup
+Setups
 
 ## Releasing
 
