@@ -1,10 +1,10 @@
-import Login from './Login';
+// import Login from './Login';
+import LoginForm from './LoginForm';
 
 const App = () => (
 	<div>
-		<Login />
-		{/* <h2 className=" bg-pink-900">Robot GUI</h2> */}
-		{/* <h1 className="text-xl font-bold bg-slate-500 text-cyan-300">Hello world!</h1> */}
+		{/* <Login /> */}
+		<LoginForm />
 	</div>
 );
 export default App;
