@@ -1,10 +1,10 @@
 import Login from './Login';
-import LoginForm from './LoginForm';
+// import LoginForm from './LoginForm';
 
 const App = () => (
 	<div>
 		<Login />
-		<LoginForm />
+		{/* <LoginForm /> */}
 	</div>
 );
 export default App;
