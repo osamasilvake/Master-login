@@ -1,4 +1,4 @@
-import Pricing from './pricingtable/Pricing';
+import Pricing from './pricing/Pricing';
 
 const App = () => (
 	<div>
