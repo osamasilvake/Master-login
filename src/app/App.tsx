@@ -1,9 +1,9 @@
-// import Login from './Login';
+import Login from './Login';
 import LoginForm from './LoginForm';
 
 const App = () => (
 	<div>
-		{/* <Login /> */}
+		<Login />
 		<LoginForm />
 	</div>
 );

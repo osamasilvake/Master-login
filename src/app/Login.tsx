@@ -2,8 +2,8 @@ import { AiFillGoogleCircle, AiFillTwitterCircle } from 'react-icons/ai';
 import { BsFacebook } from 'react-icons/bs';
 
 const Login = () => (
-	<div className="py-6 mt-10 mb-10 mx-auto w-96 bg-white rounded-lg px-10">
-		<h2 className="my-10 text-center text-3xl font-bold  text-gray-900">Login</h2>
+	<div className="py-6 mt-10 mb-10 px-10 mx-auto w-96 bg-white rounded-lg">
+		<h2 className="my-10 text-center text-3xl font-bold text-gray-900">Login</h2>
 		<form>
 			<label htmlFor="email" className="block text-sm font-medium leading-6 text-gray-900">
 				Username
@@ -13,7 +13,7 @@ const Login = () => (
 				name="email"
 				type="email"
 				placeholder="Type your email"
-				className="mt-2 w-full rounded-md border border-purple-300 py-1.5 text-gray-900 shadow-sm placeholder:text-gray-400"
+				className="mt-2 w-full rounded-md border border-purple-300 py-2 px-2 text-gray-900 shadow-sm placeholder:text-gray-400"
 			/>
 
 			<label htmlFor="password" className="block pt-5 text-sm font-medium text-gray-900">
@@ -25,7 +25,7 @@ const Login = () => (
 				type="password"
 				placeholder="Type your password"
 				required
-				className="mt-2 w-full rounded-md border border-purple-300 py-1.5 text-gray-900 shadow-sm placeholder:text-gray-400"
+				className="mt-2 w-full rounded-md border border-purple-300 py-2 px-2 text-gray-900 shadow-sm placeholder:text-gray-400"
 			/>
 
 			<div className="text-sm mt-3 text-end">
@@ -43,21 +43,23 @@ const Login = () => (
 			</div>
 		</form>
 
-		<p className="mt-14 text-center text-sm text-gray-500">Our sign up using</p>
-		<div className="flex justify-center gap-2 pt-4">
-			<a href="">
-				<BsFacebook className="w-8 h-9 text-blue-800" />
-			</a>
-			<a href="">
-				<AiFillTwitterCircle className="w-9 h-9 text-blue-400" />
-			</a>
-			<a href="">
-				<AiFillGoogleCircle className="w-9 h-9 text-red-500" />
-			</a>
-		</div>
-		<div className="text-center pt-16">
-			<p className="text-gray-500 text-sm">Our sign up using</p>
-			<button className="pt-4 text-gray-500 text-sm">Sign up</button>
+		<div>
+			<p className="mt-14 text-center text-sm text-gray-500">Our sign up using</p>
+			<div className="flex justify-center gap-2 pt-4">
+				<a href="">
+					<BsFacebook className="w-8 h-9 text-blue-800" />
+				</a>
+				<a href="">
+					<AiFillTwitterCircle className="w-9 h-9 text-blue-400" />
+				</a>
+				<a href="">
+					<AiFillGoogleCircle className="w-9 h-9 text-red-500" />
+				</a>
+			</div>
+			<div className="text-center pt-16">
+				<p className="text-gray-500 text-sm">Our sign up using</p>
+				<button className="pt-4 text-gray-500 text-sm">Sign up</button>
+			</div>
 		</div>
 	</div>
 );
