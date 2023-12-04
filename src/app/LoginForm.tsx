@@ -2,7 +2,7 @@ import { AiFillTwitterCircle } from 'react-icons/ai';
 import { BsFacebook } from 'react-icons/bs';
 
 const LoginForm = () => (
-	<div className="flex justify-center items-center px-3 pt-14 pb-12 flex-col-reverse md:flex-row md:items-stretch">
+	<div className="flex justify-center items-center px-3 pt-12 pb-12 flex-col-reverse md:flex-row md:items-stretch">
 		<div className="bg-white w-96  px-6 py-10 shadow-2xl rounded-l-lg">
 			<h1 className="text-center pb-9 mt-2 text-3xl font-semibold">Login</h1>
 			<form className="flex flex-col">
