@@ -1,12 +1,12 @@
-export interface PricingCard {
+export interface PricingTable {
 	id: string;
 	price: string;
 	usage: string;
 	description: string;
-	list: PricingCardFeature[];
+	list: PricingTableFeature[];
 	perMonth?: string;
 }
 
-interface PricingCardFeature {
+interface PricingTableFeature {
 	title: string;
 }

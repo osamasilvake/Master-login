@@ -1,8 +1,8 @@
-import Pricing from './pricing/Pricing';
+import PricingTable from './pricingtable/PricingTable';
 
 const App = () => (
 	<div>
-		<Pricing />
+		<PricingTable />
 	</div>
 );
 export default App;

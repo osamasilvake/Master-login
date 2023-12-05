@@ -1,9 +1,9 @@
-import { PricingType } from './Pricing.enum';
-import { PricingCard } from './Pricing.interface';
+import { PricingTableType } from './PricingTable.enum';
+import { PricingTable } from './PricingTable.interface';
 
-export const prices: PricingCard[] = [
+export const prices: PricingTable[] = [
 	{
-		id: PricingType.Free,
+		id: PricingTableType.Free,
 		price: '0$',
 		usage: 'For Personal Use',
 		description: 'No credit card required',
@@ -18,7 +18,7 @@ export const prices: PricingCard[] = [
 		]
 	},
 	{
-		id: PricingType.Starter,
+		id: PricingTableType.Starter,
 		price: '15$',
 		perMonth: 'two month',
 		usage: 'For Personal & Professional Use',
@@ -34,7 +34,7 @@ export const prices: PricingCard[] = [
 		]
 	},
 	{
-		id: PricingType.Premium,
+		id: PricingTableType.Premium,
 		price: '40$',
 		perMonth: 'three month',
 		usage: 'For Small Bussiness Use',
