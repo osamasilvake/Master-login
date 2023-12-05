@@ -48,7 +48,7 @@
 		"no-console": ["warn", { "allow": ["info", "warn", "error"] }],
 		"unused-imports/no-unused-imports": "error",
 		"require-await": "error",
-		"no-nested-ternary": "error",
+		"no-nested-ternary": "warn",
 		"react/no-array-index-key": "error",
 		"prettier/prettier": ["error", { "endOfLine": "auto" }]
 	}

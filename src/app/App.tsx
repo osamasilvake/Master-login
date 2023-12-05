@@ -1,8 +1,8 @@
-import Dashboard from './dashboard/Dashboard';
+import PricingTable from './pricingtable/PricingTable';
 
 const App = () => (
-	<div className="App">
-		<Dashboard />
+	<div>
+		<PricingTable />
 	</div>
 );
 export default App;
