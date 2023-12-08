@@ -22,11 +22,13 @@
 	},
 	"dependencies": {
 		"@fontsource/open-sans": "^5.0.13",
+		"@reduxjs/toolkit": "^2.0.1",
 		"dayjs": "^1.11.10",
 		"i18next": "^23.5.1",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-i18next": "^13.2.2",
+		"react-redux": "^9.0.2",
 		"sass": "^1.68.0"
 	},
 	"devDependencies": {
