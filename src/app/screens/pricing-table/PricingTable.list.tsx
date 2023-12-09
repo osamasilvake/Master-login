@@ -1,7 +1,7 @@
 import { PricingTableType } from './PricingTable.enum';
 import { PricingTable } from './PricingTable.interface';
 
-export const prices: PricingTable[] = [
+export const PricingTableList: PricingTable[] = [
 	{
 		id: PricingTableType.Free,
 		price: '0$',
@@ -22,30 +22,30 @@ export const prices: PricingTable[] = [
 		price: '15$',
 		perMonth: 'two month',
 		usage: 'For Personal & Professional Use',
-		description: 'Everthing included in Free,plus',
+		description: 'Everything included in Free,plus',
 		list: [
 			{ title: '<b>1000</b> Total Memories' },
 			{ title: '<b>Two</b> Ai persona' },
 			{ title: 'Generated Ai Domain' },
 			{ title: 'Custom Ai Domain' },
-			{ title: 'Synci Memories from Google Drive & Zapier' },
+			{ title: 'Sync Memories from Google Drive & Zapier' },
 			{ title: 'Ai Friends' },
-			{ title: 'Synci Memories from Facebook Drive & Youtube' }
+			{ title: 'Sync Memories from Facebook Drive & Youtube' }
 		]
 	},
 	{
 		id: PricingTableType.Premium,
 		price: '40$',
 		perMonth: 'three month',
-		usage: 'For Small Bussiness Use',
-		description: 'Everthing included in Start,plus',
+		usage: 'For Small Business Use',
+		description: 'Everything included in Start,plus',
 		list: [
 			{ title: '<b>2,000</b> Total Memories' },
 			{ title: '<b>UnLimited</b> Ai persona' },
 			{ title: 'Generated Ai Domain' },
 			{ title: 'Ai Friends' },
-			{ title: 'Synci Memories from Google Drive & Zapier' },
-			{ title: 'Premuim Community Lanuge Access' }
+			{ title: 'Sync Memories from Google Drive & Zapier' },
+			{ title: 'Premium Community Lounge Access' }
 		]
 	}
 ];

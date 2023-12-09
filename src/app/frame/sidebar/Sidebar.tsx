@@ -5,6 +5,9 @@ import { FiUsers } from 'react-icons/fi';
 import { HiOutlineFolderArrowDown } from 'react-icons/hi2';
 import { PiFolderStarLight } from 'react-icons/pi';
 
+import { router } from '@/router';
+import { RouterEnum } from '@/router/Router.enum';
+
 const Sidebar = () => (
 	<>
 		<aside className="hidden md:block w-48 bg-102">
@@ -13,11 +16,15 @@ const Sidebar = () => (
 					Cl<span className="text-105">o</span>ud<span className="text-105 pl-1">io</span>
 				</h1>
 				<ul className="pt-6 space-y-1">
-					<li className="flex items-center gap-4 border-l-4 px-7 py-3 text-white cursor-pointer">
+					<li
+						onClick={() => router.navigate(RouterEnum.DASHBOARD)}
+						className="flex items-center gap-4 border-l-4 px-7 py-3 text-white cursor-pointer">
 						<AiOutlineHome className="h-5 w-5" />
 						<p className="text-sm">Home</p>
 					</li>
-					<li className="flex items-center gap-4 px-7 py-3 text-103 cursor-pointer">
+					<li
+						onClick={() => router.navigate(RouterEnum.MY_FILES)}
+						className="flex items-center gap-4 px-7 py-3 text-103 cursor-pointer">
 						<AiOutlineFolder className=" h-5 w-6" />
 						<p className="text-sm">My Files</p>
 					</li>
