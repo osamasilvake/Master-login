@@ -1,8 +1,8 @@
-import Login from './Auth/Login';
+import Routes from './routes/Routes';
 
 const App = () => (
 	<div>
-		<Login />
+		<Routes />
 	</div>
 );
 export default App;

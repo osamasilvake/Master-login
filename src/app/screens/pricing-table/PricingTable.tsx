@@ -1,7 +1,7 @@
 import { AiOutlineCheck } from 'react-icons/ai';
 
-import { prices } from './prices';
 import { PricingTableType } from './PricingTable.enum';
+import { PricingTableList } from './PricingTable.list';
 
 const PricingTable = () => {
 	const getBackgroundColor = (id: string) => {
@@ -16,7 +16,7 @@ const PricingTable = () => {
 		}
 	};
 
-	const gettextColor = (id: string) => {
+	const getTextColor = (id: string) => {
 		if (id === PricingTableType.Free) {
 			return 'bg-emerald-300';
 		} else if (id === PricingTableType.Starter) {
@@ -33,15 +33,15 @@ const PricingTable = () => {
 			<header className="text-center pt-5 pb-7">
 				<h1 className="text-2xl font-semibold pb-1">Select a Subscription</h1>
 				<p className="text-sm text-gray-500">
-					Start for free or take advantage of our most popular upgruade features.
+					Start for free or take advantage of our most popular upgrade features.
 				</p>
 			</header>
 
 			<main className="flex justify-center gap-4 flex-wrap pb-8">
-				{prices?.map((price) => (
+				{PricingTableList?.map((price) => (
 					<div key={price.id} className="bg-white shadow-sm pb-5 w-64">
 						<div className={`bg-gradient-to-t text-center pt-6 h-36 ${getBackgroundColor(price.id)}`}>
-							<h2 className={`text-white text-sm inline-block px-2 py-1 rounded-lg ${gettextColor(price.id)}`}>
+							<h2 className={`text-white text-sm inline-block px-2 py-1 rounded-lg ${getTextColor(price.id)}`}>
 								{price.id}
 							</h2>
 							<p className="text-3xl text-white pt-1">{price.price}</p>

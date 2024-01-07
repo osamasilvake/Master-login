@@ -17,7 +17,7 @@ const Card = () => (
 		</div>
 
 		<div className="flex flex-col flex-wrap md:flex-row gap-4 mt-5">
-			<div className="bg-white rounded-xl py-6 px-5 md:w-48 shadow-sm">
+			<div className="bg-white rounded-xl py-6 px-5 md:w-48">
 				<div className="flex justify-end -mt-2 -mr-3">
 					<BsThreeDotsVertical className="h-4 w-4" />
 				</div>
@@ -39,7 +39,7 @@ const Card = () => (
 				<h3 className="text-sm text-106 font-semibold">App Project</h3>
 				<p className="text-xs text-gray-400 pt-1">Lorem,ipsum</p>
 			</div>
-			<div className="bg-white rounded-xl py-6 px-5 md:w-48 shadow-sm">
+			<div className="bg-white rounded-xl py-6 px-5 md:w-48">
 				<div className="flex justify-end -mt-2 -mr-3">
 					<BsThreeDotsVertical className="h-4 w-4" />
 				</div>
@@ -61,7 +61,7 @@ const Card = () => (
 				<h3 className="text-sm text-106 font-semibold">App Project</h3>
 				<p className="text-xs text-gray-400 pt-1">Lorem,ipsum</p>
 			</div>
-			<div className="bg-white rounded-xl py-6 px-5 md:w-48 shadow-sm">
+			<div className="bg-white rounded-xl py-6 px-5 md:w-48">
 				<div className="flex justify-end -mt-2 -mr-3">
 					<BsThreeDotsVertical className="h-4 w-4" />
 				</div>

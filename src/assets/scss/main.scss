@@ -2,12 +2,11 @@
 @import './typography/paragraph.scss';
 
 * {
+	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
 }
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	margin: 0;
-	padding: 0;
-	background-color: gray;
 }

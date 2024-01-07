@@ -10,9 +10,6 @@ export default {
 				104: '#FFA100',
 				105: '#E89800',
 				106: '#788088'
-			},
-			spacing: {
-				bottom: '47px'
 			}
 		}
 	},
