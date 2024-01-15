@@ -7,7 +7,7 @@ import RecentFiles from './RecentFiles';
 import SearchInput from './SearchInput';
 
 const Dashboard = () => {
-	const auth = useSelector(selectAuth); 
+	const auth = useSelector(selectAuth);
 	// const dispatch = useDispatch<AppDispatch>(); // generic <AppDispatch>
 	console.log(auth);
 

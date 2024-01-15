@@ -9,7 +9,7 @@ const SidebarItem: FC<{ item: MenuItem }> = ({ item }) => {
 		<NavLink
 			to={path}
 			className={({ isActive }) =>
-				`flex py-3 text-103 cursor-pointer border-l-8
+				`flex py-3 text-103 cursor-pointer border-l-4
                  ${isActive ? 'text-white' : 'border-transparent'}`
 			}>
 			<li className="flex gap-4 items-center px-6">
