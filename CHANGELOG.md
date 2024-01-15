@@ -1,5 +1,24 @@
 
 
+# [1.0.0](https://github.com/osamasilvake/Master-calculator/compare/0.3.0...1.0.0) (2024-01-15)
+
+
+### Bug Fixes
+
+* Code ([66640fa](https://github.com/osamasilvake/Master-calculator/commit/66640fa9e58e48cea3a27f113a8792c7328fd590))
+
+
+### Features
+
+*  Add Code ([ea09411](https://github.com/osamasilvake/Master-calculator/commit/ea09411f8e59ec95fa1fb9369aa6e42d132bb583))
+*  Add login ([0c8231b](https://github.com/osamasilvake/Master-calculator/commit/0c8231b5ba9a1f0019a27dd42aedb03657221edb))
+*  Add subsciption ([9342b56](https://github.com/osamasilvake/Master-calculator/commit/9342b566b6dc14d8ce26af03940abfa9c30ce92b))
+* Add code ([be460c4](https://github.com/osamasilvake/Master-calculator/commit/be460c40b277ec53be71492000b5ed50f4fa04c5))
+* Add code spliting ([29a6b11](https://github.com/osamasilvake/Master-calculator/commit/29a6b11d839889c43d7a78d3fb6bb4ea9f9f5e48))
+* Add login ([54a175d](https://github.com/osamasilvake/Master-calculator/commit/54a175d295c12acdf25dbb85267f41882f1067bd))
+* Add routhing ([b49440d](https://github.com/osamasilvake/Master-calculator/commit/b49440dc19c5d5d9c25ec78abcb1dc57854367d4))
+* Add signup ([002c6fa](https://github.com/osamasilvake/Master-calculator/commit/002c6fa06c0f2ca0f39b42988c4beab7c3be2d97))
+
 # 0.3.0 (2023-10-12)
 
 
