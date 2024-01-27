@@ -24,7 +24,7 @@ function parseJwt(token: string) {
 	return JSON.parse(jsonPayload);
 }
 
-export const loginAsync = createAsyncThunk('auth/login', (credentials: { username: string; password: string }) => {
+export const login = createAsyncThunk('auth/login', (credentials: { username: string; password: string }) => {
 	try {
 		console.log(credentials);
 		const response = TOKEN_URL;
@@ -35,6 +35,20 @@ export const loginAsync = createAsyncThunk('auth/login', (credentials: { usernam
 		throw new Error('Login failed');
 	}
 });
+
+// export const login = createAsyncThunk('auth/login', async (userData, thunkAPI) => {
+// 	try {
+// 		const response = await axios.post('https://dummyjson.com/auth/login', {
+// 			user: userData
+// 		});
+// 		console.log(response);
+
+// 		const parseData = parseJwt(response.data.user);
+// 		return parseData;
+// 	} catch (error) {
+// 		return thunkAPI.rejectWithValue(error.response.data.errors);
+// 	}
+// });
 
 const initialState: AuthState = {
 	user: null,
@@ -52,15 +66,15 @@ export const authSlice = createSlice({
 	},
 	extraReducers: (builder) => {
 		builder
-			.addCase(loginAsync.pending, (state) => {
+			.addCase(login.pending, (state) => {
 				state.status = 'loading';
 			})
-			.addCase(loginAsync.fulfilled, (state, action) => {
+			.addCase(login.fulfilled, (state, action) => {
 				state.status = 'succeeded';
 				state.user = action.payload;
 				state.loader = false;
 			})
-			.addCase(loginAsync.rejected, (state) => {
+			.addCase(login.rejected, (state) => {
 				state.status = 'failed';
 				state.loader = false;
 			})

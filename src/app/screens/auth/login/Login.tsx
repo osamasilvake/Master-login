@@ -3,7 +3,7 @@ import { AiFillGoogleCircle, AiFillTwitterCircle } from 'react-icons/ai';
 import { BsFacebook } from 'react-icons/bs';
 import { useDispatch } from 'react-redux';
 
-import { loginAsync } from '@/slices/auth/Auth.slice';
+import { login } from '@/slices/auth/Auth.slice';
 import { AppDispatch } from '@/store';
 
 const Login = () => {
@@ -16,7 +16,7 @@ const Login = () => {
 		setUsername('');
 		setPassword('');
 		try {
-			await dispatch(loginAsync({ username, password }));
+			await dispatch(login({ username, password }));
 		} catch (error) {
 			console.error('Login failed:', error);
 		}
