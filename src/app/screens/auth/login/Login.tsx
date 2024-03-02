@@ -55,7 +55,7 @@ const Login = () => {
 					/>
 
 					<div className="text-sm mt-3 text-end">
-						<a href="#" className="hover:text-indigo-300">
+						<a href="/password" className="hover:text-indigo-300">
 							Forgot password?
 						</a>
 					</div>
@@ -74,13 +74,13 @@ const Login = () => {
 				<div>
 					<p className="mt-14 text-center text-sm text-gray-500">Our sign up using</p>
 					<div className="flex justify-center gap-2 pt-4">
-						<a href="">
+						<a href="/">
 							<BsFacebook className="w-8 h-9 text-blue-800" />
 						</a>
-						<a href="">
+						<a href="/">
 							<AiFillTwitterCircle className="w-9 h-9 text-blue-400" />
 						</a>
-						<a href="">
+						<a href="/">
 							<AiFillGoogleCircle className="w-9 h-9 text-red-500" />
 						</a>
 					</div>

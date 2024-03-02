@@ -11,7 +11,7 @@ const Sidebar = () => {
 	};
 
 	return (
-		<aside className="hidden md:block w-52 bg-102">
+		<aside className="hidden sm:block w-52 bg-102">
 			<nav className="sticky top-0 h-screen">
 				<h1 className="font-semibold text-white pt-5 px-9 pb-5 text-xl">
 					Cl<span className="text-105">o</span>ud<span className="text-105 pl-1">io</span>

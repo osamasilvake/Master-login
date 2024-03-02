@@ -21,7 +21,8 @@
 		"prettier",
 		"plugin:react/recommended",
 		"plugin:react-hooks/recommended", // react hooks
-		"plugin:prettier/recommended" // make this the last element so prettier config overrides other formatting rules
+		"plugin:prettier/recommended", // make this the last element so prettier config overrides other formatting
+		"plugin:jsx-a11y/recommended" // automatically surface all accessibility issues as they pop up
 	],
 	"rules": {
 		"simple-import-sort/imports": "error",

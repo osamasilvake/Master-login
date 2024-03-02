@@ -7,10 +7,10 @@ const Card = () => (
 		<div className="flex justify-between mt-4">
 			<h6 className=" font-semibold text-106">Recently Used</h6>
 			<div className="flex gap-2">
-				<a href="" className="text-xl">
+				<a href="/" className="text-xl">
 					<AiFillAppstore />
 				</a>
-				<a href="" className="text-xl">
+				<a href="/" className="text-xl">
 					<AiOutlineMenu />
 				</a>
 			</div>
