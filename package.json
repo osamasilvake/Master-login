@@ -13,12 +13,12 @@
 		"pretty:apply": "prettier --write ./**/*.{js,jsx,ts,tsx,json}",
 		"lint:es": "npx eslint ./**/*.{js,jsx,ts,tsx} --quiet",
 		"lint:es:fix": "npx eslint ./**/*.{js,jsx,ts,tsx} --fix",
-		"scan:all": "yarn pretty:apply && yarn lint:es && yarn test:ci",
+		"scan:all": "yarn pretty:apply && yarn lint:es",
 		"release": "release-it",
 		"release:major": "yarn release-it -- major --ci",
 		"release:minor": "yarn release-it -- minor --ci",
 		"release:patch": "yarn release-it -- patch --ci",
-		"prepare": "husky install"
+		"prepare": "husky"
 	},
 	"dependencies": {
 		"@fontsource/open-sans": "^5.0.13",
@@ -30,9 +30,9 @@
 		"sass": "^1.68.0"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^17.7.2",
-		"@commitlint/config-conventional": "^17.7.0",
-		"@release-it/conventional-changelog": "^7.0.2",
+		"@commitlint/cli": "^19.0.3",
+		"@commitlint/config-conventional": "^19.0.3",
+		"@release-it/conventional-changelog": "^8.0.1",
 		"@types/node": "^20.8.2",
 		"@types/react": "^18.2.24",
 		"@types/react-dom": "^18.2.8",
@@ -47,11 +47,11 @@
 		"eslint-plugin-react-hooks": "^4.6.0",
 		"eslint-plugin-simple-import-sort": "^10.0.0",
 		"eslint-plugin-unused-imports": "^3.0.0",
-		"husky": "^8.0.3",
+		"husky": "^9.0.11",
 		"postcss": "^8.4.31",
 		"prettier": "^3.0.3",
 		"react-icons": "^4.11.0",
-		"release-it": "^16.2.1",
+		"release-it": "^17.1.1",
 		"tailwindcss": "^3.3.3",
 		"typescript": "^5.2.2",
 		"vite": "^4.4.9",

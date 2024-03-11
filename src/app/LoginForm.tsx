@@ -2,7 +2,7 @@ import { AiFillTwitterCircle } from 'react-icons/ai';
 import { BsFacebook } from 'react-icons/bs';
 
 const LoginForm = () => (
-	<div className="flex justify-center items-center px-3 pt-12 pb-12 flex-col-reverse md:flex-row md:items-stretch">
+	<div className="flex justify-center items-center px-3 pt-16 pb-12 flex-col md:flex-row md:items-stretch">
 		<div className="bg-white w-96  px-6 py-10 shadow-2xl rounded-l-lg">
 			<h1 className="text-center pb-9 mt-2 text-3xl font-semibold">Login</h1>
 			<form className="flex flex-col">
@@ -25,7 +25,7 @@ const LoginForm = () => (
 				</div>
 			</form>
 		</div>
-		<div className="bg-custom-red text-center  px-9 py-10 w-96 flex flex-col justify-center rounded-l-lg md:rounded-r-lg h-96 md:h-auto">
+		<div className="bg-custom-red text-center  px-9 pt-10 pb-14 w-96 flex flex-col justify-center rounded-l-lg md:rounded-r-lg h-96 md:h-auto">
 			<h1 className="mb-6 text-4xl text-white font-semibold">Login Form with Jsx</h1>
 			<p className="text-white">
 				This login form is created using pure HTML and CSS. For social icons, React-icons is used.
