@@ -12,7 +12,7 @@ const Dashboard = () => {
 	console.log(auth);
 
 	return (
-		<main className="bg-101 px-5 flex-1 pt-5">
+		<main className="bg-101 px-5 flex-1 pt-16 md:pt-5">
 			<SearchInput />
 			<Card />
 			<RecentFiles />

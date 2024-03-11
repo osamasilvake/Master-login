@@ -10,3 +10,11 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 }
+
+input#nav:checked ~ aside {
+	left: 0;
+}
+
+input#nav:checked ~ .backdrop {
+	display: block;
+}

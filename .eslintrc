@@ -51,6 +51,22 @@
 		"require-await": "error",
 		"no-nested-ternary": "warn",
 		"react/no-array-index-key": "error",
-		"prettier/prettier": ["error", { "endOfLine": "auto" }]
+		"prettier/prettier": ["error", { "endOfLine": "auto" }],
+		"jsx-a11y/label-has-associated-control": [
+			"error",
+			{
+				"required": {
+					"some": ["nesting", "id"]
+				}
+			}
+		],
+		"jsx-a11y/label-has-for": [
+			"error",
+			{
+				"required": {
+					"some": ["nesting", "id"]
+				}
+			}
+		]
 	}
 }
