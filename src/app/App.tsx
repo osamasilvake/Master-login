@@ -1,8 +1,6 @@
-import LoginForm from './LoginForm';
-
 const App = () => (
 	<div>
-		<LoginForm />
+		<h1>signup </h1>
 	</div>
 );
 export default App;
