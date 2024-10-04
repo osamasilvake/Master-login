@@ -1,4 +1,4 @@
-## React + Vite Tooling
+## React + Vite Tooling is great idea for project
 
 Setup
 
