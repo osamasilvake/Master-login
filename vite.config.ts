@@ -16,6 +16,8 @@ const configuration = defineConfig(({ mode }) => {
 		clearScreen: true,
 		test: {
 			globals: true,
+			environment: 'jsdom',
+			setupFiles: './tests/setup',
 			exclude: [...configDefaults.exclude]
 		},
 		resolve: {
